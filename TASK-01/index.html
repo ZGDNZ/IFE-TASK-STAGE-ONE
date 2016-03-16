@@ -136,26 +136,26 @@
             <h2>侧栏注册窗口标题</h2>
             <form action="post">
                 <p>
-                    请输入邮箱地址：<input type="text" placeholder="这里是一个文本输入框" id="id"/>
+                    <label for="email">请输入邮箱地址：</label><input type="text" placeholder="这里是一个文本输入框" id="email"/>
                 </p>
                 <p>
                     邮箱地址请按要求格式输入
                 </p>
                 <p>
-                    <label for="password1">请输入密码：</label>
-                    <input type="password" placeholder="这里是一个文本输入框" id="password1"/>
-                    <label for="password1">请重输入密码：</label>
-                    <input type="password" placeholder="这里是一个文本输入框" id="password2" />
+                    <label for="password">请输入密码：</label>
+                    <input type="password" id="password" placeholder="这里是一个文本输入框" id="password1"/>
+                    <label for="comfirm">请重输入密码：</label>
+                    <input type="password" id="comfirm" placeholder="这里是一个文本输入框" id="password2" />
                 </p>
                 <p>
                     密码请为6-16位英文数字
                 </p>
 
-                <span>性别：</span>
+                <label for="male">性别：</label>
                 <input name="sex" type="radio" id="male"><label for="male">男</label>
                 <input name="sex" type="radio" id="female"><label for="female">女</label>
 
-                <span>城市：</span>
+                <label for="city">城市：</label>
                 <select>   
                     <option name="city" value="1">北京</option>   
                     <option name="city" value="2">大连</option>   
@@ -164,13 +164,13 @@
                     <option name="city" value="5">广州</option>      
                 </select>  
 
-                <span>爱好：</span>
-                <input name="hobby" type="checkbox">运动
-                <input name="hobby" type="checkbox">艺术
-                <input name="hobby" type="checkbox">科学
+                <label for="sport">爱好：</label>
+                <input name="hobby" type="checkbox" id="sport"><label for="sport">运动</label>
+                <input name="hobby" type="checkbox" id="art"><label for="art">艺术</label>
+                <input name="hobby" type="checkbox" id="science"><label for="science">科学</label>
 
-                <span>个人描述：</span>
-                <textarea name="description" placeholder="这是一个多行输入框，输入您的个人描述"></textarea>
+                <label for="description">个人描述：</label>
+                <textarea id="description" placeholder="这是一个多行输入框，输入您的个人描述"></textarea>
                 <input type="submit" value="确认提交">
             </form>
         </div>
