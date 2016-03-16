@@ -1,0 +1,209 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 微软雅黑;
+}
+body{
+    background-color: #DEDEDE;
+    width:100%;
+    min-width:980px;
+}
+#head{
+    background-color: #333333;
+    position: relative;
+    height: 80px;
+}
+#head #flag{
+    margin-left: 5%;
+}
+.nav{
+    position: absolute;
+    top: 0px;
+    right: 50px;
+}
+.nav li{
+    float: left;
+    width:  100px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    padding: 8px 15px;
+    font-size: 20px;
+    margin: 0px 10px;
+}
+.nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+#first_box,#second_box,#images_box,#last_box,#side_box{
+    background-color: white;
+    margin: 30px auto;
+    padding: 40px 30px;
+    box-shadow: 2px 2px 2px #8E8E8E;
+    width: 1380px;
+}
+
+
+h2{
+    margin-bottom: 20px;
+}
+h3{
+    color: #666666;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.author{
+    color: #888888;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+#first_box .article p{
+    text-indent: 2em;
+    line-height: 30px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+#first_box img{
+    margin: 15px 0;
+}
+
+
+#second_box .article p{
+    text-indent: 2em;
+    line-height: 30px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+#second_box img{
+    margin: 15px 0;
+}
+#second_box ul{
+    list-style: none;
+    padding-left: 2em;
+}
+
+
+
+#images_box h2{
+    margin-bottom: 40px;
+}
+#images_box .img_wrap li{
+    padding: 20px;
+    width: 230px;
+    height: 230px;
+    border: 1px solid #E6E6E6;
+    margin: 20px 50px;
+    text-align:center;
+}
+#images_box .img_wrap p{
+    text-align: center;
+}
+
+
+
+#last_box td,#last_box th{
+    margin: 0px;
+    padding: 5px;
+    border: 1px solid rgb(203, 203, 203);
+}
+#last_box .rank{
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+#last_box .rank li{
+    margin: 5px 0px;
+}
+#last_box .table table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-indent: 2em;
+}
+#last_box .table thead .head1{
+    width: 40%;
+}
+#last_box .table thead .head2{
+    width: 40%;
+}
+#last_box .table thead .head3{
+    width: 20%;
+}
+#last_box .table thead{
+    background-color: #333333;
+    color: white;
+}
+#last_box .table tbody tr:hover{
+    background-color: #DDDDDD;    
+}
+#last_box .table tfoot{
+    background-color: #CCCCCC;
+}
+
+#side_box .side_title{
+    height:40px;
+    text-height: 40px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+#side_box h2{
+    float: left;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+#side_box .side_title .side_stick{
+    float: left;
+    height:40px;
+    width:4px;
+    background-color: #CCCCCC;
+    display: inline-block;
+}
+#side_box ul li{
+        margin: 15px 0px;
+        list-style: none;
+}
+#side_box label{
+    display: inline-block;
+    width: 410px;
+    text-align: right;
+    margin-right: 10px;
+}
+#side_box .label_inner{
+    width: 2em;
+    margin: 0px;
+    text-align: left;
+}
+#side_box .tips{
+    font-size: 14px;
+    color: #ccc;
+    margin: 0px;
+    margin-left: 430px;
+}
+#submit{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+    width: 100%;
+    height: 40px;
+    background-color: #3355DD;
+    cursor: pointer;
+}
+#side_box #describe{
+    height: 126px;
+    float: left;
+    margin-right: 20px;
+}
+#side_box #description{
+    width: 500px;
+    height: 100px;
+}
+
+footer {
+    height: 80px;
+    background-color: black;
+    color: white;
+    line-height: 100px;
+    text-align: center;
+}
