@@ -1,0 +1,30 @@
+    .vertical{
+    width: 400px; 
+    height: 200px; 
+    background-color: #ccc;
+ 
+    margin:auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    }
+    .vertical:before,.vertical:after{
+    width: 50px;
+    height: 50px;
+    background: #FFCC00;
+    content: ""; 
+}
+.vertical:after{
+    position: absolute;
+    border-radius: 0 0 50px 0;
+    top: 0;
+    left: 0;
+}
+.vertical:before{
+    position: absolute;
+        border-radius: 50px 0 0 0;
+    bottom: 0;
+    right: 0;
+}

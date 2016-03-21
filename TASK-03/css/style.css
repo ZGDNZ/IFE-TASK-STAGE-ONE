@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 20px;    
+}
+#wrap{
+    padding: 20px;
+    height: 532px;
+    border: 1px solid #999999;
+    background-color: #eeeeee;
+    position: relative;
+    box-shadow: 2px 2px 2px #CCC;
+}
+
+.team_logo{
+    padding: 20px;
+    width: 158px;
+    height: 80px;
+    border: 1px solid #999999;
+    float: left;
+    background-color: #FFFFFF;
+    margin-right: 20px;
+    box-shadow: 2px 2px 2px #CCC;
+}
+.team_logo .team_pic{
+    padding: 0px;
+    width: 80px;
+    height: 80px;
+    clear: both;
+}
+.team_logo .team_name{
+    display: inline-block;
+    height: 80px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #66D9EF;
+    float: right;
+}
+.introduction{
+    font-family: 微软雅黑;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 20px;
+    height: 60vh;
+    border: 1px solid #999999;
+    background-color: #FFFFFF;
+    min-width: 200px;
+    overflow: auto;
+    float: left;
+    position: absolute;
+    left: 240px;
+    right: 160px;
+    box-shadow: 2px 2px 2px #CCC;
+}
+.introduction p{
+    width: 333px;
+    border-bottom: 1px solid #CCC;
+}
+.personal_logo{
+    width: 80px;
+    float: right;
+    border: 1px solid #999999;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 2px #CCC;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+.personal_logo .personal_pic{
+    width: 80px;
+    height: 80px;
+    padding: 0px;
+    list-style: none;
+    border: 1px solid #999999;
+    float: left;
+    margin-bottom: 20px;
+}
